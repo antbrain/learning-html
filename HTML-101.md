@@ -10,12 +10,12 @@
 ## HTML Document Anatomy
 
 An HTML document is made up of the following elements:
-- **<!DOCTYPE html>** : Needed to allow for functionality of a website.
-- **<html></html>** : Wraps all content on page. Sometimes known as "root element".
-- **<head></head>** : Container for HTML metadata, not visible to website visitors.
-- **<meta charset="utf-8">** : Sets the character set to UTF-8, which includes characters from a majority of human written languages (can also use <meta author / content / property / name> for other metadata types)
-- **<title></title>** : Sets title of page that appears in browser tab when page is loaded / bookmarked.
-- **<body></body>** : Contains all content on page, including text, images, videos, games, playable, audio, etc.
+- **```<!DOCTYPE html>```** : Needed to allow for functionality of a website.
+- **```<html></html>```** : Wraps all content on page. Sometimes known as "root element".
+- **```<head></head>```** : Container for HTML metadata, not visible to website visitors.
+- **```<meta charset="utf-8">```** : Sets the character set to UTF-8, which includes characters from a majority of human written languages (can also use ```<meta author / content / property / name>``` for other metadata types)
+- **```<title></title>```** : Sets title of page that appears in browser tab when page is loaded / bookmarked.
+- **```<body></body>```** : Contains all content on page, including text, images, videos, games, playable, audio, etc.
 
 ```html
 <!DOCTYPE html>
@@ -32,19 +32,19 @@ An HTML document is made up of the following elements:
 
 ## Semantic Elements in HTML
 
-- **<article>** : Defines independent, self-contained content
-- **<aside>** : Defines content aside from the page content
-- **<details>** : Defines additional details that the user can view or hide
-- **<figcaption>** : Defines a caption for a <figure> element
-- **<figure>** : Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
-- **<footer>** : Defines a footer for a document or section
-- **<header>** : Specifies a header for a document or section
-- **<main>**: Specifies the main content of a document
-- **<mark>**: Defines marked/highlighted text
-- **<nav>** : Defines navigation links
-- **<section>** : Defines a section in a document
-- **<summary>** : Defines a visible heading for a <details> element
-- **<time>** : Defines a date/time
+- **```<article>```** : Defines independent, self-contained content
+- **```<aside>```** : Defines content aside from the page content
+- **```<details>```** : Defines additional details that the user can view or hide
+- **```<figcaption>```** : Defines a caption for a ```<figure>``` element
+- **```<figure>```** : Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+- **```<footer>```** : Defines a footer for a document or section
+- **```<header>```** : Specifies a header for a document or section
+- **```<main>```**: Specifies the main content of a document
+- **```<mark>```**: Defines marked/highlighted text
+- **```<nav>```** : Defines navigation links
+- **```<section>```** : Defines a section in a document
+- **```<summary>```** : Defines a visible heading for a ```<details>``` element
+- **```<time>```** : Defines a date/time
 
 ## HTML Style Guides
 - [How to Use the HTML5 Sectioning Elements](https://blog.teamtreehouse.com/use-html5-sectioning-elements) : Proivdes context into HTML5's elements that give elevated semantic meaning to the page.
