@@ -3,13 +3,14 @@
 #### Contents
 
 - [HTML Document Anatomy](#html-document-anatomy)
-- [Semantic Elements in HTML](#semantic-elements-html)
+- [Semantic Elements in HTML](#semantic-elements-in-html)
 - [HTML Style Guides](#html-style-guides)
-- [Meeting WCAG2 (Web Content Accessibility Guidelines)](#wcag-guidelines)
+- [Meeting WCAG2 Web Content Accessibility Guidelines](#meeting-wcag2-web-content-accessibility-guidelines)
 
 ## HTML Document Anatomy
 
 An HTML document is made up of the following elements:
+
 - **```<!DOCTYPE html>```** : Needed to allow for functionality of a website.
 - **```<html></html>```** : Wraps all content on page. Sometimes known as "root element".
 - **```<head></head>```** : Container for HTML metadata, not visible to website visitors.
@@ -17,7 +18,7 @@ An HTML document is made up of the following elements:
 - **```<title></title>```** : Sets title of page that appears in browser tab when page is loaded / bookmarked.
 - **```<body></body>```** : Contains all content on page, including text, images, videos, games, playable, audio, etc.
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -27,7 +28,7 @@ An HTML document is made up of the following elements:
   <body>
     <p>MAYBE</p>
   </body>
-</html>
+</html
 ```
 
 ## Semantic Elements in HTML
@@ -47,11 +48,14 @@ An HTML document is made up of the following elements:
 - **```<time>```** : Defines a date/time
 
 ## HTML Style Guides
+
+- [mdn's Web Technology for Developers Landing page](https://developer.mozilla.org/en-US/docs/Web)
 - [How to Use the HTML5 Sectioning Elements](https://blog.teamtreehouse.com/use-html5-sectioning-elements) : Proivdes context into HTML5's elements that give elevated semantic meaning to the page.
 - [markodenic's Awesome HTML Tips](https://github.com/markodenic/awesome-html-css-js-tips/blob/master/HTML.md)
 - [w3 School's HTML Tag List](https://www.w3schools.com/tags/default.asp)
 - [mdn web docs_ HTML Guides](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 
-## Meeting WCAG2 (Web Content Accessibility Guidelines)
+## Meeting WCAG2 Web Content Accessibility Guidelines
+
 - [How to Meet WCAG2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=128%2C313#language-of-page)
 - [WebAIM's WCAG2's Checklist](https://webaim.org/standards/wcag/checklist)
